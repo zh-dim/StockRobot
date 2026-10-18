@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Ночные варианты текстовых/значковых цветов (тема остаётся DayNight). -->
+    <color name="subtitle">#B3B3B3</color>
+    <color name="value_number">#82B1FF</color>
+    <color name="value_string">#81C784</color>
+    <color name="value_boolean">#CE93D8</color>
+    <color name="value_nil">#9E9E9E</color>
+    <color name="error_text">#EF9A9A</color>
+    <color name="primary_container">#1D4E89</color>
+    <color name="on_primary_container">#D6E3FF</color>
+    <color name="ic_stroke">#B0BEC5</color>
+</resources>

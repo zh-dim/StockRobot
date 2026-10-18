@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#D6E3FF</color>
+    <color name="on_primary_container">#001B3F</color>
+    <color name="secondary">#00796B</color>
+
+    <color name="subtitle">#606060</color>
+    <color name="value_number">#0D47A1</color>
+    <color name="value_string">#1B7F3B</color>
+    <color name="value_boolean">#6A1B9A</color>
+    <color name="value_nil">#8A8A8A</color>
+    <color name="error_text">#C62828</color>
+
+    <color name="ic_stroke">#455A64</color>
+    <color name="launcher_background">#1565C0</color>
+    <color name="launcher_glyph">#FFFFFF</color>
+</resources>

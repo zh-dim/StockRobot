@@ -1,0 +1,68 @@
+# General
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Runtime/data files (can be large, often machine-specific state)
+*.dat
+*.bin
+Log*.txt
+trades*.txt
+orders*.txt
+OrderTable*.txt
+tool*.txt
+trends*.txt
+trends_store.txt
+StateTable*.txt
+Trades*.txt
+ToolTrades.txt
+setting*.txt
+settings*.json
+*.flag
+alltrade.dat
+orders.dat
+tmsg.dat
+trades.dat
+transresult.dat
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+out/
+
+# Android/Gradle (LuaFieldViewer)
+.gradle/
+local.properties
+*.iml
+.idea/
+.gradle-cache/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# OS
+$RECYCLE.BIN/
+System Volume Information/
+
+# Toolchain (machine-specific, large)
+StockRobot2024_toolchain/
+android-sdk/
+sdk/
+
+# Keep examples if any
+!.env.example

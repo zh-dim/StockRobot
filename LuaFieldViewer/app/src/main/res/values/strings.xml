@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Поля Lua</string>
+
+    <!-- Экран списка файлов -->
+    <string name="fab_open">Открыть файл…</string>
+    <string name="sample_label">Образец в приложении</string>
+    <string name="document_label">Документ</string>
+    <string name="empty_list">Нет файлов.\nНажмите кнопку «+», чтобы открыть .txt в формате Lua.</string>
+    <string name="remove_doc_title">Убрать файл из списка?</string>
+    <string name="remove_doc_message">Файл не удаляется с устройства — он просто исчезнет из списка.</string>
+    <string name="remove_action">Убрать</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Меню -->
+    <string name="menu_settings">Настройки</string>
+
+    <!-- Сервер -->
+    <string name="server_label">С сервера</string>
+    <string name="server_file_label">Сервер · %1$s</string>
+    <string name="server_off">Сервер не задан — откройте настройки.</string>
+    <string name="server_off_short">Сервер не задан</string>
+    <string name="server_loading">Проверка сервера…</string>
+    <string name="server_error">Сервер недоступен: %1$s</string>
+    <string name="server_updated">Обновлено %1$s · файлов: %2$d</string>
+    <string name="server_updated_time">Обновлено %1$s</string>
+
+    <!-- Настройки -->
+    <string name="settings_title">Настройки сервера</string>
+    <string name="settings_description">Укажите HTTP-сервер, каталог с файлами .txt в формате Lua-таблиц и период автообновления.</string>
+    <string name="settings_host">Адрес сервера (IP или имя)</string>
+    <string name="settings_port">Порт</string>
+    <string name="settings_path">Каталог на сервере (например /data)</string>
+    <string name="settings_interval">Интервал обновления, сек</string>
+    <string name="settings_mask">Маска файлов (txt, txt,lua; пусто — все)</string>
+    <string name="settings_save">Сохранить</string>
+    <string name="settings_saved">Настройки сохранены</string>
+    <string name="settings_host_required">Укажите адрес сервера</string>
+    <string name="settings_port_invalid">Порт: от 1 до 65535</string>
+    <string name="settings_interval_invalid">Интервал: от 1 до 3600 сек</string>
+
+    <!-- Экран просмотра полей -->
+    <string name="search_hint">Поиск поля или значения</string>
+    <string name="mode_tree">Дерево</string>
+    <string name="mode_text">Текст</string>
+    <string name="stats_format">Полей: %1$d · Таблиц: %2$d · Глубина: %3$d</string>
+    <string name="parse_error_title">Не удалось разобрать файл как Lua-таблицу.</string>
+    <string name="error_position">Строка %1$d, столбец %2$d</string>
+    <string name="show_as_text">Показать как текст</string>
+    <string name="text_limit_note">⚠ Показаны первые %1$d символов из %2$d.</string>
+    <string name="copied">Значение скопировано</string>
+    <string name="read_error">Не удалось прочитать файл</string>
+    <string name="no_results">Ничего не найдено</string>
+
+    <!-- Бейджи узлов дерева -->
+    <string name="table_badge">таблица · %1$s</string>
+    <string name="array_badge">массив · %1$s</string>
+
+    <!-- Размеры файлов -->
+    <string name="size_kb">%1$d КБ</string>
+    <string name="size_mb">%1$.1f МБ</string>
+
+    <plurals name="fields">
+        <item quantity="one">%d поле</item>
+        <item quantity="few">%d поля</item>
+        <item quantity="many">%d полей</item>
+        <item quantity="other">%d полей</item>
+    </plurals>
+
+    <plurals name="elements">
+        <item quantity="one">%d элемент</item>
+        <item quantity="few">%d элемента</item>
+        <item quantity="many">%d элементов</item>
+        <item quantity="other">%d элементов</item>
+    </plurals>
+</resources>
